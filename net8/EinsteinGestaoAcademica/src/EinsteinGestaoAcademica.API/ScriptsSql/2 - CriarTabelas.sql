@@ -109,6 +109,16 @@ CREATE TABLE professor_curso (
 -- =============================================================
 CREATE TABLE usuario (
     id    SERIAL       PRIMARY KEY,
+    id_professor       INT NULL,
+    id_aluno           INT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
-    senha VARCHAR(255) NOT NULL
+    senha VARCHAR(255) NOT NULL,
+
+     CONSTRAINT fk_usuario_professor
+        FOREIGN KEY (id_professor) REFERENCES professor (id)
+        ON DELETE CASCADE,
+    
+     CONSTRAINT fk_usuario_aluno
+        FOREIGN KEY (id_aluno) REFERENCES aluno (id)
+        ON DELETE CASCADE,    
 );
