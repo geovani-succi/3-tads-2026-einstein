@@ -120,5 +120,5 @@ CREATE TABLE usuario (
     
      CONSTRAINT fk_usuario_aluno
         FOREIGN KEY (id_aluno) REFERENCES aluno (id)
-        ON DELETE CASCADE,    
-);
+        ON DELETE CASCADE    
+)
