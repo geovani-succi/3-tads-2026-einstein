@@ -5,9 +5,6 @@
 --         com seus relacionamentos, baseado nas entidades do domínio
 -- =============================================================
 
--- 1. Criar o banco de dados
-CREATE DATABASE "EinsteinGestaoAcademica";
-
 -- ATENÇÃO: Após executar o CREATE DATABASE, conecte-se ao banco
 -- criado antes de executar o restante do script.
 -- No psql:  \c EinsteinGestaoAcademica
