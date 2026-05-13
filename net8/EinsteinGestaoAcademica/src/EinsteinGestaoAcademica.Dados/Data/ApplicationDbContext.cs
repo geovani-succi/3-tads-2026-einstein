@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 
-namespace EinsteinGestaoAcademica.API.Data
+namespace EinsteinGestaoAcademica.Dados.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext: DbContext
     {
          public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options) { }

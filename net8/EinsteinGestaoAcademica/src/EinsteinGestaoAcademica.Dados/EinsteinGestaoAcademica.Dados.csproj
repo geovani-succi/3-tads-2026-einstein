@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,16 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-    <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EinsteinGestaoAcademica.Dominio\EinsteinGestaoAcademica.Dominio.csproj" />
-    <ProjectReference Include="..\EinsteinGestaoAcademica.Aplicacao\EinsteinGestaoAcademica.Aplicacao.csproj" />
-    <ProjectReference Include="..\EinsteinGestaoAcademica.Dados\EinsteinGestaoAcademica.Dados.csproj" />
   </ItemGroup>
 
 </Project>

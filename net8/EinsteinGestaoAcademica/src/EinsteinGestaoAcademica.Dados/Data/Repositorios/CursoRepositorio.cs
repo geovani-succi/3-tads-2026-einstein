@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
-using EinsteinGestaoAcademica.API.Dominio.Repositorios;
+using EinsteinGestaoAcademica.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Repositorios;
 using Microsoft.EntityFrameworkCore;
 
-namespace EinsteinGestaoAcademica.API.Data.Repositorios
+namespace EinsteinGestaoAcademica.Dados.Data.Repositorios
 {
-    public class CursoRepositorio : ICursoRepositorio
+    public class CursoRepositorio: ICursoRepositorio
     {
         private readonly ApplicationDbContext _context;
 

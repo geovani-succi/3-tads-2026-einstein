@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Enums;
+using EinsteinGestaoAcademica.Dominio.Enums;
 
-namespace EinsteinGestaoAcademica.API.Dominio.Entidades
+namespace EinsteinGestaoAcademica.Dominio.Entidades
 {
     public class Disciplina
     {

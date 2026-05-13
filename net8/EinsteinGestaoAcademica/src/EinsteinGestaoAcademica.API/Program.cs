@@ -1,9 +1,10 @@
-using EinsteinGestaoAcademica.API.Aplicacao.AlterarCurso;
-using EinsteinGestaoAcademica.API.Aplicacao.CriarCurso;
-using EinsteinGestaoAcademica.API.Aplicacao.RemoverCurso;
-using EinsteinGestaoAcademica.API.Data;
-using EinsteinGestaoAcademica.API.Data.Repositorios;
-using EinsteinGestaoAcademica.API.Dominio.Repositorios;
+
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.AlterarCurso;
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.CriarCurso;
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.RemoverCurso;
+using EinsteinGestaoAcademica.Dados.Data;
+using EinsteinGestaoAcademica.Dados.Data.Repositorios;
+using EinsteinGestaoAcademica.Dominio.Repositorios;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

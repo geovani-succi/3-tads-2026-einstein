@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Entidades;
 
-namespace EinsteinGestaoAcademica.API.Dominio.Repositorios
+namespace EinsteinGestaoAcademica.Dominio.Repositorios
 {
     public interface ICursoRepositorio
     {

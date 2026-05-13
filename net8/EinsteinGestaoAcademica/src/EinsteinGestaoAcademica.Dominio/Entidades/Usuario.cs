@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EinsteinGestaoAcademica.API.Dominio.Entidades
+namespace EinsteinGestaoAcademica.Dominio.Entidades
 {
     public class Usuario
     {

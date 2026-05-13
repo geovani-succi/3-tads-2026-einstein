@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Aplicacao.AlterarCurso;
-using EinsteinGestaoAcademica.API.Aplicacao.CriarCurso;
-using EinsteinGestaoAcademica.API.Aplicacao.RemoverCurso;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
-using EinsteinGestaoAcademica.API.Dominio.Repositorios;
 using EinsteinGestaoAcademica.API.Requests;
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.AlterarCurso;
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.CriarCurso;
+using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.RemoverCurso;
+using EinsteinGestaoAcademica.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Repositorios;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EinsteinGestaoAcademica.API.Controllers

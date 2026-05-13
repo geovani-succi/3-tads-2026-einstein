@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Entidades;
 
-namespace EinsteinGestaoAcademica.API.Aplicacao.CriarCurso
+namespace EinsteinGestaoAcademica.Aplicacao.Services.Cursos.CriarCurso
 {
     public interface ICriarCursoUseCase
     {

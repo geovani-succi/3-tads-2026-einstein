@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EinsteinGestaoAcademica.API.Dominio.Entidades;
-using EinsteinGestaoAcademica.API.Dominio.Repositorios;
+using EinsteinGestaoAcademica.Dominio.Entidades;
+using EinsteinGestaoAcademica.Dominio.Repositorios;
 
-namespace EinsteinGestaoAcademica.API.Aplicacao.AlterarCurso
+namespace EinsteinGestaoAcademica.Aplicacao.Services.Cursos.AlterarCurso
 {
-    public class AlterarCursoUseCase : IAlterarCursoUseCase
+    public class AlterarCursoUseCase: IAlterarCursoUseCase
     {
         private readonly ICursoRepositorio cursoRepositorio;
 

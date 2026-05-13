@@ -1,10 +1,8 @@
-namespace EinsteinGestaoAcademica.API.Dominio.Enums
+namespace EinsteinGestaoAcademica.Dominio.Enums
 {
     public enum Periodo
     {
         Noturno = 1,
         Diurno = 2
     }
-
-    
 }
