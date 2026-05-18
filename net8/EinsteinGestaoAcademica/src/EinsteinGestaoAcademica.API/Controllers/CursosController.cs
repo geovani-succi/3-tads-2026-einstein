@@ -8,11 +8,13 @@ using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.CriarCurso;
 using EinsteinGestaoAcademica.Aplicacao.Services.Cursos.RemoverCurso;
 using EinsteinGestaoAcademica.Dominio.Entidades;
 using EinsteinGestaoAcademica.Dominio.Repositorios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EinsteinGestaoAcademica.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class CursosController : ControllerBase
     {

@@ -39,7 +39,7 @@ namespace EinsteinGestaoAcademica.Dados.Data.Repositorios
             var curso = _context.Cursos
                 .FromSql($"SELECT * FROM curso where id = {id}");
 
-            return await curso.FirstOrDefaultAsync();
+            return await curso.FirstOrDefaultAsync()!;
         }
 
         public async Task<List<Curso>> ObterCursos()

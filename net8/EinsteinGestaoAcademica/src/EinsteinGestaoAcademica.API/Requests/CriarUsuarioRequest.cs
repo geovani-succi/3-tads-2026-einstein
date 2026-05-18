@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EinsteinGestaoAcademica.Dominio.Entidades
+namespace EinsteinGestaoAcademica.API.Requests
 {
-    public class Usuario
+    public class CriarUsuarioRequest
     {
-        public int id { get; set; }
         public int? id_professor { get; set; }
         public int? id_aluno { get; set; }
         public string email { get; set; }
