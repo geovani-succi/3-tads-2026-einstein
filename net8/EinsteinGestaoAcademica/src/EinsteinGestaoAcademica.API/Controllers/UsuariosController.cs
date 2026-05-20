@@ -61,7 +61,7 @@ namespace EinsteinGestaoAcademica.API.Controllers
                 var usuario = await realizarLoginUseCase.RealizarLogin(request.email, request.senha);
                 if (usuario == null)
                 {
-                    return Unauthorized();
+                    return Forbid();
                 }
                 var token = tokenService.GerarToken(usuario);
                 return Ok(new { Token = token });

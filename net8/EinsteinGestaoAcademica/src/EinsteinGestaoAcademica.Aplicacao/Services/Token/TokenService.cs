@@ -26,6 +26,7 @@ namespace EinsteinGestaoAcademica.Aplicacao.Services.Token
             {
                 new Claim(ClaimTypes.NameIdentifier, usuario.id.ToString()),
                 new Claim(ClaimTypes.Email, usuario.email),
+                new Claim(ClaimTypes.Role, "permissoes", "PodeCadastrarUsuario")
             };
 
             var key = new SymmetricSecurityKey(
